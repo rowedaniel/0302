@@ -1,0 +1,21 @@
+
+
+image construction system:
+
+Image
+  |
+Indexed Array*   Colormap*
+  |                  |
+  \---------+--------/
+            |
+     Full Color Array
+            |
+         Texture*
+            |
+          Sprite
+
+* = saved in memory
+
+notes:
+Use texture.update() to change, bc it will change the texture while keeping the rest the same.
+I think this way runs once/new texture + once/new colormap, which is superior to doing it once/frame for whole screen.

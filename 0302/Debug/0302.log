@@ -1,0 +1,5 @@
+﻿  Game.cpp
+  TileManager.cpp
+c:\users\bob joe\source\repos\0302\0302\tilemanager.cpp(50): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  Generating Code...
+  0302.vcxproj -> C:\Users\Bob Joe\source\repos\0302\Debug\0302.exe
